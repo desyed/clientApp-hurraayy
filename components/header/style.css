@@ -1,0 +1,19 @@
+.rightMenu ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-horizontal {
+  text-align: right;
+}
+.ant-drawer-body ul.ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline {
+  border-right: none;
+}
+.barsMenu {
+  display: none;
+  text-align: right;
+}
+
+@media (max-width: 691px) {
+  .rightMenu {
+    display: none;
+  }
+  .barsMenu {
+    display: block;
+  }
+}
