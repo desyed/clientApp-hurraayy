@@ -8,7 +8,8 @@ import { loadData } from "../lib/placeholder/actions";
 
 import App from "../layouts/App";
 import Header from "../components/header/Header";
-// import Page from "../components/Page";
+
+import HeroSection from "../components/hero-section";
 import { Button } from "antd";
 
 // import "../node_modules/antd/dist/";
@@ -30,6 +31,7 @@ class PageIndex extends React.Component {
     return (
       <App>
         <Header />
+        <HeroSection />
       </App>
     );
   }

@@ -1,0 +1,40 @@
+.hero-section {
+  padding: 30px;
+}
+.ant-radio-button-wrapper {
+  border-color: transparent;
+}
+.ant-radio-button-wrapper:not(:first-child)::before {
+  background-color: transparent;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #fff;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #fff;
+  box-shadow: none;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  box-shadow: none;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+.ant-radio-button-wrapper:first-child {
+  border-left: none;
+  border-radius: 0;
+}
+.ant-radio-button-wrapper:last-child {
+  border-left: none;
+  border-radius: 0;
+}
+.ant-select-selection,
+.ant-select-selection:hover {
+  border-color: transparent;
+}
