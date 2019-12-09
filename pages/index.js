@@ -2,9 +2,9 @@ import React from "react";
 
 import { connect } from "react-redux";
 
-import { startClock } from "../lib/clock/actions";
-import { countIncrease } from "../lib/count/actions";
-import { loadData } from "../lib/placeholder/actions";
+import { startClock } from "../lib/store/clock/actions";
+import { countIncrease } from "../lib/store/count/actions";
+import { loadData } from "../lib/store/placeholder/actions";
 
 import App from "../layouts/App";
 import Header from "../components/header/Header";

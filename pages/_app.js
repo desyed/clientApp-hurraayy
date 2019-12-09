@@ -9,7 +9,7 @@ import "uikit/dist/css/uikit-core.min.css";
 // import "uikit/dist/js/uikit.min";
 // import "uikit/dist/js/uikit-icons";
 
-import createStore from "../lib/store";
+import createStore from "../lib/store/store";
 
 class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
